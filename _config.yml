@@ -1,0 +1,16 @@
+title: HKUST-Got-Skills
+description: "Design a skill to automate and accelerate scientific discovery"
+theme: jekyll-theme-hacker
+show_downloads: false
+
+nav:
+  - title: Home
+    url: /
+  - title: Program
+    url: /program
+  - title: Resources
+    url: /resources
+  - title: Organizers
+    url: /organizers
+  - title: Ideas
+    url: /ideas
