@@ -17,14 +17,7 @@ Whether it's automating literature reviews, generating benchmark scripts, writin
 
 ## Propose Your Idea
 
-We encourage all participants to **propose a workflow you want to automate** before the hackathon. What repetitive or time-consuming process in your research could an AI skill handle for you? For example:
-
-- **Experiment automation** — automate data collection, parameter sweeps, or result analysis
-- **Coding and testing** — generate, test, and debug scientific code
-- **Paper writing** — drafting, notation checking, citation management
-- **Literature survey** — searching, summarizing, and organizing papers
-- **Education** — creating tutorials, exercises, or explanations
-- **Brainstorming** — exploring new research directions with AI-assisted ideation
+We encourage all participants to **propose a workflow you want to automate** before the hackathon. What repetitive or time-consuming process in your research could an AI skill handle for you?
 
 Head over to the [Ideas page](ideas) to submit your proposal and browse what others are thinking!
 

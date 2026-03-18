@@ -19,10 +19,11 @@ Have an idea for a skill that could accelerate scientific discovery? Share it he
 
 ## Need Inspiration?
 
-Here are some directions to think about:
+Think about what repetitive or time-consuming process in your research could an AI skill handle for you. Here are some directions:
 
-- **Literature Review Skill** — Automate searching, summarizing, and organizing papers on a research topic
-- **Benchmark Automation Skill** — Generate and run benchmarks for computational experiments with configurable parameters
-- **Paper Writing Skill** — Assist with drafting, checking notation consistency, and managing citations
-- **Data Analysis Skill** — Automate common data processing and visualization pipelines for experimental results
-- **Code Porting Skill** — Help translate scientific code between languages (e.g., Julia to Rust, Python to C++)
+- **Experiment automation** — automate data collection, parameter sweeps, or result analysis
+- **Coding and testing** — generate, test, and debug scientific code
+- **Paper writing** — drafting, notation checking, citation management
+- **Literature survey** — searching, summarizing, and organizing papers
+- **Education** — creating tutorials, exercises, or explanations
+- **Brainstorming** — exploring new research directions with AI-assisted ideation
