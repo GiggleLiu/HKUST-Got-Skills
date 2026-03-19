@@ -189,6 +189,13 @@ TBD — HKUST(GZ) campus, with remote participation from HKUST(CWB)
 2. **Hacking** — Form teams and build your skill
 3. **Showcase** — Demo your creation, peer voting for favorites
 
+## Explore
+
+- [Program](program) — Schedule and format
+- [Resources](resources) — Tools, guides, and reading
+- [Organizers](organizers) — Who's behind this
+- [Ideas](ideas) — Submit and browse project ideas
+
 ## Want to Join?
 
 This is an invite-only event. If you are interested in participating, please contact [jinguoliu@hkust-gz.edu.cn](mailto:jinguoliu@hkust-gz.edu.cn).
@@ -466,34 +473,80 @@ git commit -m "feat: add GitHub issue template for project ideas"
 
 ---
 
-### Task 9: Initialize Git Repo and Push
+### Task 9: Push and Enable GitHub Pages
 
-- [ ] **Step 1: Initialize git repo (if not already)**
+The repo already exists at `https://github.com/GiggleLiu/HKUST-Got-Skills` (private) with remote `origin` configured.
 
-```bash
-cd /home/leo/Documents/HKUST-Got-Skills
-git init
-git add -A
-git commit -m "initial commit: HKUST-Got-Skills hackathon website"
-```
-
-- [ ] **Step 2: Create GitHub repo and push**
+- [ ] **Step 1: Push all commits**
 
 ```bash
-gh repo create GiggleLiu/HKUST-Got-Skills --public --source=. --push
+git push origin main
 ```
 
-- [ ] **Step 3: Enable GitHub Pages**
+- [ ] **Step 2: Enable GitHub Pages**
+
+Enable manually: repo Settings → Pages → Source: "Deploy from a branch" → Branch: `main`, folder: `/ (root)`.
+
+Or via CLI:
 
 ```bash
-gh api repos/GiggleLiu/HKUST-Got-Skills/pages -X POST -f build_type=workflow -f source.branch=main -f source.path=/
+gh api repos/GiggleLiu/HKUST-Got-Skills/pages -X POST -f source='{"branch":"main","path":"/"}' 2>/dev/null || echo "Pages may already be enabled"
 ```
 
-Or enable manually: repo Settings → Pages → Source: "Deploy from a branch" → Branch: `main`, folder: `/ (root)`.
+- [ ] **Step 3: Verify site is live**
 
-- [ ] **Step 4: Verify site is live**
+```bash
+curl -s -o /dev/null -w "%{http_code}" https://GiggleLiu.github.io/HKUST-Got-Skills/
+```
 
-Visit `https://GiggleLiu.github.io/HKUST-Got-Skills/` and check:
+Expected: `200`
+
+Also check manually:
 - All 5 pages render
-- Navigation bar works
-- Links are correct
+- Navigation bar works and highlights active page
+- Links to GitHub Issues work
+
+---
+
+### Task 10: Makefile for Local Development
+
+**Files:**
+- Create: `Makefile`
+
+- [ ] **Step 1: Create `Makefile`**
+
+```makefile
+.PHONY: serve clean
+
+serve: ## Serve the site locally with live reload
+	bundle exec jekyll serve --livereload
+
+install: ## Install Jekyll and dependencies
+	gem install bundler
+	bundle init
+	echo 'gem "jekyll"' >> Gemfile
+	echo 'gem "jekyll-theme-hacker"' >> Gemfile
+	bundle install
+
+clean: ## Clean generated site
+	rm -rf _site .jekyll-cache
+
+help: ## Show this help
+	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-15s\033[0m %s\n", $$1, $$2}'
+```
+
+- [ ] **Step 2: Create `Gemfile`**
+
+```ruby
+source "https://rubygems.org"
+
+gem "jekyll", "~> 4.3"
+gem "jekyll-theme-hacker"
+```
+
+- [ ] **Step 3: Commit**
+
+```bash
+git add Makefile Gemfile
+git commit -m "feat: add Makefile with serve target for local development"
+```
