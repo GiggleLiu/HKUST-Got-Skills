@@ -27,7 +27,7 @@ TBD
 
 ## Where
 
-TBD — HKUST(GZ) campus, with remote participation from HKUST(CWB)
+TBD — [HKUST(GZ)](https://amat.hkust-gz.edu.cn/about/contact-directions/)
 
 ## Format
 
@@ -35,11 +35,6 @@ TBD — HKUST(GZ) campus, with remote participation from HKUST(CWB)
 2. **Hacking** — Form teams and build your skill
 3. **Showcase** — Demo your creation, peer voting for favorites
 
-## Explore
-
-- [Program](program) — Schedule and format
-- [Resources](resources) — Tools, guides, and reading
-- [Organizers](organizers) — Who's behind this
 ## Want to Join?
 
 This is an invite-only event. If you are interested in participating, please contact [jinguoliu@hkust-gz.edu.cn](mailto:jinguoliu@hkust-gz.edu.cn).
