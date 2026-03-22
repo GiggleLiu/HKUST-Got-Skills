@@ -38,3 +38,8 @@ TBD — [HKUST(GZ)](https://amat.hkust-gz.edu.cn/about/contact-directions/)
 ## Want to Join?
 
 This is an invite-only event. If you are interested in participating, please contact [jinguoliu@hkust-gz.edu.cn](mailto:jinguoliu@hkust-gz.edu.cn).
+
+## Organizers
+
+- **Jin-Guo Liu** — AMAT, HKUST(GZ) — [jinguoliu@hkust-gz.edu.cn](mailto:jinguoliu@hkust-gz.edu.cn)
+- **Xi Dai** — TBD
