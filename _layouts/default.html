@@ -23,6 +23,19 @@
       nav.site-nav a.active {
         text-decoration: underline;
       }
+      .btn {
+        display: inline-block;
+        padding: 10px 24px;
+        background: #b5e853;
+        color: #151515 !important;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 4px;
+        margin-top: 8px;
+      }
+      .btn:hover {
+        background: #9ecf43;
+      }
     </style>
   </head>
 
@@ -43,10 +56,6 @@
             </a>
           {% endfor %}
         </nav>
-
-        <section id="downloads">
-          <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
       </div>
     </header>
 

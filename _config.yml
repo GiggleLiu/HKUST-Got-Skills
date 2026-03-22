@@ -3,6 +3,9 @@ description: "Design a skill to automate and accelerate scientific discovery"
 theme: jekyll-theme-hacker
 show_downloads: false
 
+sass:
+  quiet_deps: true
+
 nav:
   - title: Home
     url: /
@@ -12,5 +15,3 @@ nav:
     url: /resources
   - title: Organizers
     url: /organizers
-  - title: Ideas
-    url: /ideas

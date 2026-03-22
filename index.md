@@ -11,15 +11,15 @@ A cross-campus hackathon bringing together HKUST(GZ) and HKUST(CWB) to build AI 
 
 ## What
 
-Teams design and build **skills** — reusable automation modules for AI coding tools (Claude Code, Cursor, Codex CLI, OpenCode, and more) — that help scientists work faster and smarter.
+Design and build **skills** — reusable automation modules for AI coding tools (Claude Code, Cursor, Codex CLI, OpenCode, and more) — that help scientists work faster and smarter.
 
 Whether it's automating literature reviews, generating benchmark scripts, writing papers, or building computational libraries, your skill should make a real scientific workflow better.
 
-## Propose Your Idea
-
 We encourage all participants to **propose a workflow you want to automate** before the hackathon. What repetitive or time-consuming process in your research could an AI skill handle for you?
 
-Head over to the [Ideas page](ideas) to submit your proposal and browse what others are thinking!
+Head over to the Ideas page to submit your proposal and browse what others are thinking!
+
+<a href="https://github.com/GiggleLiu/HKUST-Got-Skills/issues/new?template=project-idea.yml" class="btn">Submit Your Idea →</a>
 
 ## When
 
@@ -40,8 +40,6 @@ TBD — HKUST(GZ) campus, with remote participation from HKUST(CWB)
 - [Program](program) — Schedule and format
 - [Resources](resources) — Tools, guides, and reading
 - [Organizers](organizers) — Who's behind this
-- [Ideas](ideas) — Submit and browse project ideas
-
 ## Want to Join?
 
 This is an invite-only event. If you are interested in participating, please contact [jinguoliu@hkust-gz.edu.cn](mailto:jinguoliu@hkust-gz.edu.cn).

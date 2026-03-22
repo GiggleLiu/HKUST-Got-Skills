@@ -2,6 +2,19 @@ name: Project Idea
 description: Submit a hackathon project idea
 labels: ["project-idea"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Need Inspiration?
+
+        Think about what repetitive or time-consuming process in your research could an AI skill handle for you. Here are some directions:
+
+        - **Experiment automation** — automate data collection, parameter sweeps, or result analysis
+        - **Coding and testing** — generate, test, and debug scientific code
+        - **Paper writing** — drafting, notation checking, citation management
+        - **Literature survey** — searching, summarizing, and organizing papers
+        - **Education** — creating tutorials, exercises, or explanations
+        - **Brainstorming** — exploring new research directions with AI-assisted ideation
   - type: input
     id: title
     attributes:
@@ -14,7 +27,7 @@ body:
     id: description
     attributes:
       label: Description
-      description: What does this skill do? What problem does it solve?
+      description: What does this skill do? What scientific workflow does it improve?
       placeholder: "Describe the skill and the scientific workflow it improves..."
     validations:
       required: true
