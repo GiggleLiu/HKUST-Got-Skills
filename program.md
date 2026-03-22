@@ -22,5 +22,6 @@ By the end of the hackathon, each team needs to submit:
 
 | Time | Activity |
 |---------|-------|
-| 10AM-2PM | Hacking session (Vibing) |
+| 10AM-11AM | Invited Talk (TBA) |
+| 11AM-2PM | Hacking session (Vibing) |
 | 3PM-5PM | Show time |
