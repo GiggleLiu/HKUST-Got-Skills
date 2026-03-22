@@ -9,14 +9,13 @@ title: Resources
 
 Get your AI coding tools ready before the hackathon:
 
-- [AI Coding Tool Setup Guide](https://github.com/GiggleLiu/HKUST-Got-Skills/blob/main/learn-skill/docs/setup-guide.md) — Installation instructions for Claude Code, Cursor, Codex CLI, and OpenCode
+- [AI Coding Tool Setup Guide](setup-guide) — Installation instructions for Claude Code, Cursor, Codex CLI, and OpenCode
 
 ## AI Coding Tools
 
 | Tool | Type | Link |
 |------|------|------|
 | Claude Code | Terminal CLI | [code.claude.com](https://code.claude.com) |
-| Cursor | IDE | [cursor.com](https://www.cursor.com) |
 | Codex CLI | Terminal CLI | [github.com/openai/codex](https://github.com/openai/codex) |
 | OpenCode | Terminal CLI | [opencode.ai](https://opencode.ai) |
 

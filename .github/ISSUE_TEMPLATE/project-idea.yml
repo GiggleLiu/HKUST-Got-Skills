@@ -44,19 +44,3 @@ body:
         - Any / Tool-agnostic
     validations:
       required: true
-  - type: input
-    id: domain
-    attributes:
-      label: Scientific Domain
-      description: What area of science does this skill accelerate?
-      placeholder: "e.g., Quantum Computing, Materials Science, Bioinformatics"
-    validations:
-      required: true
-  - type: textarea
-    id: team
-    attributes:
-      label: Team
-      description: Are you looking for teammates? What skills would be helpful?
-      placeholder: "e.g., Looking for 1-2 teammates with Python/ML experience"
-    validations:
-      required: false
