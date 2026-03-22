@@ -24,7 +24,7 @@ We encourage all participants to **propose a workflow you want to automate** bef
 
 ## Registration
 
-Invite-only. Please contact [jinguoliu@hkust-gz.edu.cn](mailto:jinguoliu@hkust-gz.edu.cn) if you are interested in participating.
+Invitation-only. Please contact [jinguoliu@hkust-gz.edu.cn](mailto:jinguoliu@hkust-gz.edu.cn) if you are interested in participating.
 
 ## Organizers
 
