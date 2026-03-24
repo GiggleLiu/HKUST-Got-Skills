@@ -2,7 +2,7 @@
 
 **Design a skill to automate and accelerate scientific discovery.**
 
-A cross-campus hackathon at HKUST(GZ) and HKUST(CWB) where teams build AI coding skills for scientific workflows.
+A cross-campus hackathon at HKUST(GZ) and HKUST(CWB) where teams build AI coding skills for scientific workflows. Invitation only.
 
 **Website**: https://giggleliu.github.io/HKUST-Got-Skills/
 
