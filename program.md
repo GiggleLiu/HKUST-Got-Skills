@@ -17,7 +17,7 @@ Goal: build a working skill and release it on GitHub. Teams of size 1-4.
 | Time | Activity |
 |---------|-------|
 | 10:00-10:30 | Intro & Communication channel setup (Prof. Jin-Guo Liu) |
-| 10:00-12:00 | Grouping and hands-on (Tutorial like) |
+| 10:30-12:00 | Grouping and hands-on (Tutorial like) |
 | 12:00-16:00 | Hacking session |
 | 16:00-17:00 | Show time |
 
@@ -27,7 +27,7 @@ Goal: build a working skill and release it on GitHub. Teams of size 1-4.
 |---------|-------|
 | 10:00-11:00 | Sharing, vibe research (Prof. Xi Dai) |
 | 11:00-16:00 | Hacking session |
-| 16:00-17:00 | Vibe research (Dr. Si-Rui Lu, [arXiv:2506.06214](https://arxiv.org/abs/2506.06214)) |
+| 16:00-17:00 | Online Talk: Dr. Si-Rui Lu, [arXiv:2506.06214](https://arxiv.org/abs/2506.06214) |
 
 
 ## Day 3 - 1st April
