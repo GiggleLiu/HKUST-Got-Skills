@@ -3,25 +3,37 @@ layout: default
 title: Program
 ---
 
+<style>
+  table { table-layout: fixed; width: 100%; }
+  table th:first-child, table td:first-child { width: 200px; }
+</style>
+
 # Program
 
-Working in teams of size 1-4.
-By the end of the hackathon, each team needs to submit:
-- A working skill released on GitHub
+Goal: build a working skill and release it on GitHub. Teams of size 1-4.
 
-## Day 1
+## Day 1 - 30th March
 
 | Time | Activity |
 |---------|-------|
-| 10AM-10:30AM | Intro & Communication channel setup |
-| 10AM-12PM | Grouping and hands-on (Tutorial like) |
-| 12PM-4PM | Hacking session (Vibing) |
-| 4PM-5PM | Show time |
+| 10:00-10:30 | Intro & Communication channel setup (Prof. Jin-Guo Liu) |
+| 10:00-12:00 | Grouping and hands-on (Tutorial like) |
+| 12:00-16:00 | Hacking session |
+| 16:00-17:00 | Show time |
 
-## Day 2
+## Day 2 - 31st March
 
 | Time | Activity |
 |---------|-------|
-| 10AM-11AM | Invited Talk (TBA) |
-| 11AM-2PM | Hacking session (Vibing) |
-| 3PM-5PM | Show time |
+| 10:00-11:00 | Sharing, vibe research (Prof. Xi Dai) |
+| 11:00-16:00 | Hacking session |
+| 16:00-17:00 | Vibe research (Dr. Si-Rui Lu, [arXiv:2506.06214](https://arxiv.org/abs/2506.06214)) |
+
+
+## Day 3 - 1st April
+
+| Time | Activity |
+|---------|-------|
+| 10:00-11:00 | Invited Talk (TBA) |
+| 11:00-16:00 | Hacking session |
+| 16:00-17:00 | Show time |

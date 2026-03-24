@@ -5,12 +5,12 @@ title: Home
 
 # HKUST-Got-Skills
 
-**Design a skill to automate and accelerate scientific discovery.**
+**30th March - 1st April 2026**, Room TBD — [**HKUST(GZ)**](https://amat.hkust-gz.edu.cn/about/contact-directions/)
 
+**Design a skill to automate and accelerate scientific discovery.**
 A cross-campus hackathon bringing together HKUST(GZ) and HKUST(CWB) to build AI coding skills that transform scientific research workflows.
 
-- When: TBD
-- Where: TBD — [HKUST(GZ)](https://amat.hkust-gz.edu.cn/about/contact-directions/)
+<img src="images/poster.jpg" alt="Poster" width="500">
 
 ## What
 
@@ -25,8 +25,9 @@ We encourage all participants to **propose a workflow you want to automate** bef
 ## Registration
 
 Invitation-only. Please contact [jinguoliu@hkust-gz.edu.cn](mailto:jinguoliu@hkust-gz.edu.cn) if you are interested in participating.
+Use this link to get [entrance permission and in-campus accommodation](https://forms.gle/A4sMXLncn3fDdsyX8)
 
 ## Organizers
 
 - **Jin-Guo Liu** — AMAT, HKUST(GZ) — [jinguoliu@hkust-gz.edu.cn](mailto:jinguoliu@hkust-gz.edu.cn)
-- **Xi Dai** — TBD
+- **Xi Dai** — Physics, HKUST(CWB)

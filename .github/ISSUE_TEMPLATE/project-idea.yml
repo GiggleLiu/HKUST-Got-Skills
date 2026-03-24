@@ -13,7 +13,7 @@ body:
         - **Coding and testing** — generate, test, and debug scientific code
         - **Paper writing** — drafting, notation checking, citation management
         - **Literature survey** — searching, summarizing, and organizing papers
-        - **Education** — creating tutorials, exercises, or explanations
+        - **Education** — a skill to lead students through a research project
         - **Brainstorming** — exploring new research directions with AI-assisted ideation
   - type: input
     id: title
