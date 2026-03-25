@@ -8,16 +8,16 @@ title: Program
   table th:first-child, table td:first-child { width: 120px; }
 </style>
 
-# Program
+# Program (Tentative)
 
-Goal: build a working skill and release it on GitHub. Teams of size 1-4.
+Goal: build a working skill and release it on GitHub ([links](skills)). Teams of size 1-4.
 
 ## Day 1 - 30th March
 
 | Time | Activity |
 |---------|-------|
 | 10:00-10:30 | Intro & Communication channel setup (Prof. Jin-Guo Liu) |
-| 10:30-12:00 | Grouping and hands-on (Tutorial like) |
+| 10:30-12:00 | Grouping and hands-on |
 | 12:00-16:00 | Hacking session |
 | 16:00-17:00 | Show time |
 
@@ -27,8 +27,7 @@ Goal: build a working skill and release it on GitHub. Teams of size 1-4.
 |---------|-------|
 | 10:00-11:00 | Sharing, vibe research (Prof. Xi Dai) |
 | 11:00-16:00 | Hacking session |
-| 16:00-17:00 | Online Talk: Dr. Si-Rui Lu, [arXiv:2506.06214](https://arxiv.org/abs/2506.06214) |
-
+| 16:00-17:00 | Online Talk: Dr. Si-Rui Lu, [arXiv:2506.06214](https://arxiv.org/abs/2506.06214), [Zoom link (ID: 95927073703, PWD: 055429)](https://hkust-gz-edu-cn.zoom.us/j/95927073703?pwd=xSUEN8bA9JJf22x8sIobGmJiG0GhOb.1) |
 
 ## Day 3 - 1st April
 
