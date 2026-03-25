@@ -25,7 +25,6 @@ We encourage all participants to **propose a workflow you want to automate** bef
 ## Registration
 
 Invitation-only. Please contact [jinguoliu@hkust-gz.edu.cn](mailto:jinguoliu@hkust-gz.edu.cn) if you are interested in participating.
-Use this link to get [entrance permission and in-campus accommodation](https://forms.gle/A4sMXLncn3fDdsyX8)
 
 ## Organizers
 

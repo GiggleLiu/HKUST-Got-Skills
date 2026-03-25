@@ -1,6 +1,6 @@
-name: Project Idea
-description: Submit a hackathon project idea
-labels: ["project-idea"]
+name: Skill Idea
+description: Submit a hackathon skill idea
+labels: ["skill-idea"]
 body:
   - type: markdown
     attributes:
@@ -15,14 +15,6 @@ body:
         - **Literature survey** — searching, summarizing, and organizing papers
         - **Education** — a skill to lead students through a research project
         - **Brainstorming** — exploring new research directions with AI-assisted ideation
-  - type: input
-    id: title
-    attributes:
-      label: Project Title
-      description: A short, descriptive name for your skill
-      placeholder: "e.g., Automated Literature Review Skill"
-    validations:
-      required: true
   - type: textarea
     id: description
     attributes:
@@ -38,7 +30,6 @@ body:
       description: Which AI coding tool will this skill be built for?
       options:
         - Claude Code
-        - Cursor
         - Codex CLI
         - OpenCode
         - Any / Tool-agnostic
