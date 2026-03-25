@@ -183,7 +183,19 @@ Install https://github.com/obra/superpowers and gh (GitHub CLI) if not already i
 
 ---
 
-## Step 2: Brainstorm Your Skill Idea
+## Step 2: Confirm Your Idea Is Suited for a Skill
+
+<div class="prompt" markdown="1">
+```
+I want to <describe what the skill does>. Is this task suited to be implemented as a skill?
+```
+</div>
+
+For example: *"I want to automate literature survey from a list of arxiv links. Is this task suited to be implemented as a skill?"*
+
+---
+
+## Step 3: Brainstorm Your Skill Idea
 
 <div class="prompt" markdown="1">
 ```
@@ -191,11 +203,9 @@ Brainstorm with me: I want to create a skill that <describe what the skill does>
 ```
 </div>
 
-For example: *"I want to create a skill that automates literature survey from a list of arxiv links"*.
-
 ---
 
-## Step 3: Create the Skill
+## Step 4: Create the Skill
 
 <div class="prompt" markdown="1">
 ```
@@ -207,7 +217,7 @@ This guides you through creating, naming, and writing the skill file.
 
 ---
 
-## Step 4: Test the Skill
+## Step 5: Test the Skill
 
 <div class="prompt" markdown="1">
 ```
@@ -219,7 +229,7 @@ This simulates a user interacting with your skill and produces a test report.
 
 ---
 
-## Step 5: Publish
+## Step 6: Publish
 
 <div class="prompt" markdown="1">
 ```
