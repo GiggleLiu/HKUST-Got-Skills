@@ -23,7 +23,7 @@ This guide covers installation and configuration of four mainstream AI coding to
 
 ---
 
-## 1. Claude Code — Highest Quality AI Coding Tool
+## 1. Claude Code — Best Support to Skills
 
 Claude Code is Anthropic's official AI coding assistant. It can autonomously plan, edit, run tests, and fix issues. Available as a terminal CLI, VS Code / JetBrains extension, desktop app, and web interface.
 
@@ -47,10 +47,6 @@ On first run of `claude`, follow the prompts to log in with a Claude Pro or Max 
 ### 1.3 Recommended Model
 
 - `opus-4.6`
-
-### 1.4 Essential Plugin
-
-- [superpowers](https://github.com/obra/superpowers) — greatly improves coding efficiency with Claude Code.
 
 ---
 
@@ -102,33 +98,16 @@ In addition to the international models above:
 - Kimi 2.5
 - DeepSeek V3
 
-### 3.3 Essential Plugin
-
-- [superpowers](https://github.com/obra/superpowers) — greatly improves coding efficiency. See the [OpenCode-specific setup instructions](https://github.com/obra/superpowers/blob/main/docs/README.opencode.md).
-
 ---
 
-## Appendix A: Proxy Configuration Cheat Sheet
-
-All terminal tools share the same proxy environment variables. Add the following to `~/.zshrc` or `~/.bashrc` (one-time setup, applies to all tools):
-
-```bash
-export HTTP_PROXY=http://127.0.0.1:7890
-export HTTPS_PROXY=http://127.0.0.1:7890
-export NO_PROXY=localhost,127.0.0.1,deepseek.com
-```
-
-Run `source ~/.zshrc` (or `source ~/.bashrc`) or restart your terminal to apply.
-
-## Appendix B: FAQ
+## FAQ
 
 **Q: Proxy is configured but still can't connect?**
 A: Check the following:
 1. Is your proxy software running (e.g. Clash, V2Ray)?
 2. Is the port correct (Clash default `7890`, V2Ray default `10808`)?
 3. Run `curl -I https://api.anthropic.com` to test connectivity.
-4. For Cursor, confirm `cursor.general.disableHttp2` is set to `true`.
-5. If using Pandafan, enable "Enhanced Mode" for the proxy to work properly.
+4. If using Pandafan, enable "Enhanced Mode" for the proxy to work properly.
 
 **Q: Should Windows users use WSL or native?**
 A: We recommend WSL 2 (`wsl --install`). Terminal tools (Claude Code, Codex CLI, OpenCode) work the same as on macOS / Linux under WSL. Cursor is a standalone IDE — install it natively on Windows.

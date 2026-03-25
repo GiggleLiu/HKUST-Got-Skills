@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Step by Step
+title: Instruction
 ---
 
 <style>
