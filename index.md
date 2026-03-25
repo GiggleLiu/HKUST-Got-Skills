@@ -7,7 +7,6 @@ title: Home
 
 **30th March - 1st April 2026**, W1-5F, 521H — [**HKUST(GZ)**](https://amat.hkust-gz.edu.cn/about/contact-directions/)
 
-**Design a skill to automate and accelerate scientific discovery.**
 A cross-campus hackathon bringing together HKUST(GZ) and HKUST(CWB) to build AI coding skills that transform scientific research workflows.
 
 <img src="images/poster.jpg" alt="Poster" width="600">
