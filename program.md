@@ -5,7 +5,7 @@ title: Program
 
 <style>
   table { table-layout: fixed; width: 100%; }
-  table th:first-child, table td:first-child { width: 200px; }
+  table th:first-child, table td:first-child { width: 120px; }
 </style>
 
 # Program
