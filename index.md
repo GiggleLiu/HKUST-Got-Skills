@@ -26,6 +26,9 @@ We encourage all participants to **propose the workflow you want to automate** a
 
 Invitation-only. Please contact [jinguoliu@hkust-gz.edu.cn](mailto:jinguoliu@hkust-gz.edu.cn) if you are interested in participating.
 
+## Communication
+[GitHub discussion](https://github.com/GiggleLiu/HKUST-Got-Skills/discussions)
+
 ## Organizers
 
 - **Jin-Guo Liu** — AMAT, HKUST(GZ) — [jinguoliu@hkust-gz.edu.cn](mailto:jinguoliu@hkust-gz.edu.cn)
