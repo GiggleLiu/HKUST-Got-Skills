@@ -31,5 +31,5 @@ Invitation-only. Please contact [jinguoliu@hkust-gz.edu.cn](mailto:jinguoliu@hku
 
 ## Organizers
 
-- **Jin-Guo Liu** — AMAT, HKUST(GZ) — [jinguoliu@hkust-gz.edu.cn](mailto:jinguoliu@hkust-gz.edu.cn)
+- **Jin-Guo Liu** — AMAT, HKUST(GZ) — [jinguoliu@hkust-gz.edu.cn](mailto:jinguoliu@hkust-gz.edu.cn), Guo-Yi Zhu and Guo Chen
 - **Xi Dai** — Physics, HKUST(CWB)
