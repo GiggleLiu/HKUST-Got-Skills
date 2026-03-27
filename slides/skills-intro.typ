@@ -43,7 +43,7 @@
 #show: hkustgz-theme.with(
   config-info(
     title: [All you need is skill],
-    subtitle: [an introduction to AI coding skills],
+    subtitle: [an introduction to automation with AI agents],
     author: [Jin-Guo Liu],
     date: datetime.today(),
     institution: [HKUST(GZ) - FUNH - Advanced Materials Thrust],
@@ -145,16 +145,8 @@ description: Write an academic paper from outline to submission
 4. Find a room in Maker space to work together. More available rooms will be refreshed on WeChat group. We communicate via both WeChat and GitHub discussion (technical discussion). Please feel free to ask for help on *GitHub discussion*. Help desk is the main stage.
 5. *Task*: Each group presents a skill (or mcp/cli tool) they have built on Wednesday.
 
+== Live coding
 
-// ── Appendix: MCP/CLI Tool Directory ──
-
-#let tool-table(items) = {
-  set text(size: 7pt)
-  table(
-    columns: (auto, auto, 1fr),
-    inset: 4pt,
-    align: (center, center, left),
-    table.header([*Name*], [*Type*], [*Description*]),
-    ..items.map(row => (link(row.at(1))[#row.at(0)], row.at(2), row.at(3))).flatten()
-  )
-}
+Live coding: https://giggleliu.github.io/HKUST-Got-Skills/step-by-step
+- *CLI* to simulate materials with Quantum ESPRESSO
+- *Skill* to let a beginner (zero knowledge to materials simulation) to access this tool with AI agent
