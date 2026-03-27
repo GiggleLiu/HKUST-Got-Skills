@@ -14,7 +14,7 @@ A cross-campus hackathon bringing together HKUST(GZ) and HKUST(CWB) to build AI 
 ## How It Works
 
 1. **Identify a workflow** — Pick a repetitive or time-consuming process in your research: literature reviews, benchmark scripts, paper writing, computational library development, or anything else you wish you could automate.
-2. **Build a skill** — Create a reusable automation module for AI coding tools (Claude Code, Cursor, Codex CLI, OpenCode, and more) that makes that workflow faster and smarter.
+2. **Build with AI** — Create a skill, MCP server, or command line tool using AI coding tools (Claude Code, Codex CLI, OpenCode, and more) that makes that workflow faster and smarter.
 3. **Demo and share** — Present your skill and let others benefit from it.
 
 We encourage all participants to **propose the workflow you want to automate** and **setup AI agent tools** before the hackathon.

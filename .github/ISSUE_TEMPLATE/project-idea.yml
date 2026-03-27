@@ -1,33 +1,52 @@
-name: Skill Idea
-description: Submit a hackathon skill idea
-labels: ["skill-idea"]
+name: Project Idea
+description: Submit a hackathon project idea
+labels: ["project-idea"]
 body:
   - type: markdown
     attributes:
       value: |
         ## Need Inspiration?
 
-        Think about what repetitive or time-consuming process in your research could an AI skill handle for you. Here are some directions:
+        Think about what repetitive or time-consuming task in your research could AI handle for you. Here are some directions:
 
         - **Experiment automation** — automate data collection, parameter sweeps, or result analysis
         - **Coding and testing** — generate, test, and debug scientific code
         - **Paper writing** — drafting, notation checking, citation management
         - **Literature survey** — searching, summarizing, and organizing papers
-        - **Education** — a skill to lead students through a research project
+        - **Education** — lead students through a research project step by step
         - **Brainstorming** — exploring new research directions with AI-assisted ideation
+
+        ## What Should I Build?
+
+        | Type | Best for | Example |
+        |------|----------|---------|
+        | **Skill** | Interactive workflows where the AI walks you through multiple steps | Paper writing assistant, experiment design guide |
+        | **MCP Server** | Connecting AI to outside data sources so it can look things up for you | Search your lab's database, fetch papers from arXiv |
+        | **Command Line Tool** | A standalone program that does one job well, built with AI help (vibe coding!) | Benchmark runner, data format converter, a small web app |
+  - type: dropdown
+    id: project-type
+    attributes:
+      label: Project Type
+      description: What type of project will you build?
+      options:
+        - Skill — an interactive AI workflow with multiple steps
+        - MCP Server — connect AI to outside data sources or services
+        - Command Line Tool — a standalone program built with AI help (vibe coding)
+    validations:
+      required: true
   - type: textarea
     id: description
     attributes:
       label: Description
-      description: What does this skill do? What scientific workflow does it improve?
-      placeholder: "Describe the skill and the scientific workflow it improves..."
+      description: What does this project do? What research task does it help with?
+      placeholder: "Describe what your project does and which research task it makes easier..."
     validations:
       required: true
   - type: dropdown
     id: target-tool
     attributes:
       label: Target Tool
-      description: Which AI coding tool will this skill be built for?
+      description: Which AI coding tool will this be built for?
       options:
         - Claude Code
         - Codex CLI
