@@ -13,8 +13,6 @@ title: Resources
 | Codex CLI | Terminal CLI | [github.com/openai/codex](https://github.com/openai/codex) |
 | OpenCode | Terminal CLI | [opencode.ai](https://opencode.ai) |
 
-## Setup Guide
-
 Get your AI coding tools ready before the hackathon:
 
 - [AI Coding Tool Setup Guide](setup-guide) — Installation instructions for Claude Code, Cursor, Codex CLI, and OpenCode
@@ -22,8 +20,6 @@ Get your AI coding tools ready before the hackathon:
 ## Learning Resources
 - [Documentation: The Complete Guide to Building Skills for Claude](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf)
 - [Video: Agentic Coding (MIT Open Course)](https://missing.csail.mit.edu/2026/agentic-coding/)
-
-## Blog Posts
 
 Vibe coding blog posts (Advertisement):
 
