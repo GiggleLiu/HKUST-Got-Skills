@@ -137,6 +137,13 @@ description: Write an academic paper from outline to submission
 
 *Key insight*: small & explicit tasks $arrow$ reliable agent. Skills decompose big tasks into such pieces.
 
+*Example*: https://github.com/QuantumBFS/sci-brain/tree/main/skills/researchstyle
+
+== The duality of skills and tools
+
+- *Sophisticated CLI/MCP* $arrow.r$ *Simple Skill*
+- *Simple CLI/MCP* $arrow.r$ *Sophisticated Skill*
+
 == How the hackathon works?
 
 1. Decide what to build: *MCP/CLI or skills?*, must check: https://giggleliu.github.io/HKUST-Got-Skills/resources
