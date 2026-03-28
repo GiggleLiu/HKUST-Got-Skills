@@ -155,9 +155,9 @@ description: Write an academic paper from outline to submission
 
 *Example*: https://github.com/QuantumBFS/sci-brain/tree/main/skills/researchstyle
 
-== The duality of skills and tools
+== Complexity conservation law
 
-#figure(
+#align(center, scale(150%,
   canvas(length: 1cm, {
     import draw: *
 
@@ -175,7 +175,7 @@ description: Write an academic paper from outline to submission
 
     // Skill bar (short)
     let skill-w1 = max-w - tool-w1 - 0.2
-    rect((tool-w1 + 0.2, bar-h / 2), (max-w, -bar-h / 2), fill: rgb("#ffd54f"), stroke: none, radius: 0.15)
+    rect((tool-w1 + 0.2, bar-h / 2), (max-w, -bar-h / 2), fill: green.lighten(30%), stroke: none, radius: 0.15)
     content((tool-w1 + 0.2 + skill-w1 / 2, 0), text(size: 9pt, weight: "bold")[📜])
 
     // --- Case 2: Simple tool, sophisticated skill ---
@@ -188,22 +188,16 @@ description: Write an academic paper from outline to submission
 
     // Skill bar (long)
     let skill-w2 = max-w - tool-w2 - 0.2
-    rect((tool-w2 + 0.2, -y-gap + bar-h / 2), (max-w, -y-gap - bar-h / 2), fill: rgb("#ffd54f"), stroke: none, radius: 0.15)
+    rect((tool-w2 + 0.2, -y-gap + bar-h / 2), (max-w, -y-gap - bar-h / 2), fill: green.lighten(30%), stroke: none, radius: 0.15)
     content((tool-w2 + 0.2 + skill-w2 / 2, -y-gap), text(size: 10pt, weight: "bold")[📜 Sophisticated Skill])
-
-    // Total width bracket
-    set-style(stroke: (paint: rgb("#aaa"), thickness: 0.8pt, dash: "dashed"))
-    line((0, bar-h / 2 + 0.5), (max-w, bar-h / 2 + 0.5))
-    content((max-w / 2, bar-h / 2 + 0.9), text(size: 9pt, fill: rgb("#888"))[total complexity ≈ constant])
 
     // Legend
     rect((0, -y-gap - bar-h / 2 - 0.7), (1.2, -y-gap - bar-h / 2 - 1.1), fill: rgb("#1565c0"), stroke: none, radius: 0.1)
     content((1.6, -y-gap - bar-h / 2 - 0.9), anchor: "west", text(size: 9pt)[CLI / MCP Tool])
-    rect((4.2, -y-gap - bar-h / 2 - 0.7), (5.4, -y-gap - bar-h / 2 - 1.1), fill: rgb("#ffd54f"), stroke: none, radius: 0.1)
+    rect((4.2, -y-gap - bar-h / 2 - 0.7), (5.4, -y-gap - bar-h / 2 - 1.1), fill: green.lighten(30%), stroke: none, radius: 0.1)
     content((5.8, -y-gap - bar-h / 2 - 0.9), anchor: "west", text(size: 9pt)[Skill (recipe)])
-  }),
-  caption: [Like cooking: a food processor needs a simple recipe; a knife needs a skilled chef.],
-)
+  })
+))
 
 == How the hackathon works?
 
@@ -229,3 +223,9 @@ Check the program: https://giggleliu.github.io/HKUST-Got-Skills/program
 Live coding: https://giggleliu.github.io/HKUST-Got-Skills/step-by-step
 - *CLI* to simulate materials with Quantum ESPRESSO
 - *Skill* to let a beginner (zero knowledge to materials simulation) to access this tool with AI agent
+
+=== Tips
+1. Carefully check the *available tools* from our website resources page before moving on.
+2. Identify the *creative part* of your skill and use the `AskUserQuestion` tool to ask the user for input. It is a tool that allows the agent to utilize human's expertise.
+3. Identify the *mechanical parts* of your skill and write bash/makefile/python scripts to improve the performance.
+4. If you want a cool pixel art, you can register at the help desk.
