@@ -35,6 +35,6 @@ We encourage each group to discuss & confirm the topic at the help desk. I will 
 
 | Time | Activity |
 |---------|-------|
-| 10:00-11:00 | Tea break |
-| 11:00-16:00 | Hacking session |
-| 16:00-17:00 | Show time, 7-min each group, submit link to GitHub repo |
+| 10:00-11:00 | Tea break & Call for event |
+| 15:00-15:30 | Tea break |
+| 15:30-17:00 | Show time, 7-min each group, submit link to GitHub repo |
