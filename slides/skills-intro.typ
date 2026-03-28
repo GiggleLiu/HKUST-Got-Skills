@@ -106,11 +106,27 @@
 
 == To build skills, understand MCP/CLI first
 
-CLI: agents run commands on your computer, e.g. `git`, `python`, `make`.
+#myslide(
+  [
+    *MCP*: agents call tools over the web, e.g. arXiv search. Supports multimedia inputs and outputs, e.g. image, video, etc.
 
-MCP: agents call tools over the web, e.g. arXiv search, Slack, databases. Supports multimedia inputs and outputs, e.g. image, video, etc.
+    *CLI*: agents run commands on your computer, e.g. `git`, `python`, `make`.
 
-e.g. https://github.com/blazickjp/arxiv-mcp-server
+#text(size: 14pt, fill: rgb("#555"))[
+  _"The Unix philosophy accidentally built the perfect interface for AI agents."_ — *Andrej Karpathy* (co-founder of OpenAI).
+
+  CLI tools are composable, scriptable, and growing fast — major services (Google, GitHub, AWS, ...) now ship CLIs alongside their GUIs.
+]
+
+
+  ],
+  [
+    #figure(
+      image("images/gcloud-cli.png"),
+      caption: [`gcloud` — manage Google Cloud from the terminal],
+    )
+  ],
+)
 
 == List of MCP/CLI tools
 
@@ -141,16 +157,72 @@ description: Write an academic paper from outline to submission
 
 == The duality of skills and tools
 
-- *Sophisticated CLI/MCP* $arrow.r$ *Simple Skill*
-- *Simple CLI/MCP* $arrow.r$ *Sophisticated Skill*
+#figure(
+  canvas(length: 1cm, {
+    import draw: *
+
+    let bar-h = 0.6
+    let max-w = 8
+    let y-gap = 1.8
+
+    // --- Case 1: Sophisticated tool, simple skill ---
+    content((-1.5, 0), text(size: 10pt, fill: rgb("#888"))[Case 1])
+
+    // Tool bar (long)
+    let tool-w1 = 6.5
+    rect((0, bar-h / 2), (tool-w1, -bar-h / 2), fill: rgb("#1565c0"), stroke: none, radius: 0.15)
+    content((tool-w1 / 2, 0), text(size: 10pt, fill: white, weight: "bold")[🔧 Sophisticated Tool])
+
+    // Skill bar (short)
+    let skill-w1 = max-w - tool-w1 - 0.2
+    rect((tool-w1 + 0.2, bar-h / 2), (max-w, -bar-h / 2), fill: rgb("#ffd54f"), stroke: none, radius: 0.15)
+    content((tool-w1 + 0.2 + skill-w1 / 2, 0), text(size: 9pt, weight: "bold")[📜])
+
+    // --- Case 2: Simple tool, sophisticated skill ---
+    content((-1.5, -y-gap), text(size: 10pt, fill: rgb("#888"))[Case 2])
+
+    // Tool bar (short)
+    let tool-w2 = 1.8
+    rect((0, -y-gap + bar-h / 2), (tool-w2, -y-gap - bar-h / 2), fill: rgb("#1565c0"), stroke: none, radius: 0.15)
+    content((tool-w2 / 2, -y-gap), text(size: 9pt, fill: white, weight: "bold")[🔧])
+
+    // Skill bar (long)
+    let skill-w2 = max-w - tool-w2 - 0.2
+    rect((tool-w2 + 0.2, -y-gap + bar-h / 2), (max-w, -y-gap - bar-h / 2), fill: rgb("#ffd54f"), stroke: none, radius: 0.15)
+    content((tool-w2 + 0.2 + skill-w2 / 2, -y-gap), text(size: 10pt, weight: "bold")[📜 Sophisticated Skill])
+
+    // Total width bracket
+    set-style(stroke: (paint: rgb("#aaa"), thickness: 0.8pt, dash: "dashed"))
+    line((0, bar-h / 2 + 0.5), (max-w, bar-h / 2 + 0.5))
+    content((max-w / 2, bar-h / 2 + 0.9), text(size: 9pt, fill: rgb("#888"))[total complexity ≈ constant])
+
+    // Legend
+    rect((0, -y-gap - bar-h / 2 - 0.7), (1.2, -y-gap - bar-h / 2 - 1.1), fill: rgb("#1565c0"), stroke: none, radius: 0.1)
+    content((1.6, -y-gap - bar-h / 2 - 0.9), anchor: "west", text(size: 9pt)[CLI / MCP Tool])
+    rect((4.2, -y-gap - bar-h / 2 - 0.7), (5.4, -y-gap - bar-h / 2 - 1.1), fill: rgb("#ffd54f"), stroke: none, radius: 0.1)
+    content((5.8, -y-gap - bar-h / 2 - 0.9), anchor: "west", text(size: 9pt)[Skill (recipe)])
+  }),
+  caption: [Like cooking: a food processor needs a simple recipe; a knife needs a skilled chef.],
+)
 
 == How the hackathon works?
 
 1. Decide what to build: *MCP/CLI or skills?*, must check: https://giggleliu.github.io/HKUST-Got-Skills/resources
 2. File an issue on GitHub: https://github.com/GiggleLiu/HKUST-Got-Skills/issues (15 min)
 3. *Grouping*: 1-4 people per group, use skills by similarity.
-4. Find a room in Maker space to work together. More available rooms will be refreshed on WeChat group. We communicate via both WeChat and GitHub discussion (technical discussion). Please feel free to ask for help on *GitHub discussion*. Help desk is the main stage.
+4. Find a room in Maker space to work together.
 5. *Task*: Each group presents a skill (or mcp/cli tool) they have built on Wednesday.
+
+== Key resources
+
+- Help desk is on the main stage. The online communication is via both WeChat and GitHub discussion (technical discussion).
+- *Room booking*: Ask help desk for more available rooms. We will refresh the list of available rooms on WeChat group.
+
+== Important gathering times
+
+Check the program: https://giggleliu.github.io/HKUST-Got-Skills/program
+
+- Recommendation: Please go to the help desk to confirm the technical approach.
 
 == Live coding
 
