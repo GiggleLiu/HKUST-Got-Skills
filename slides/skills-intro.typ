@@ -1,4 +1,5 @@
 #import "@preview/touying:0.6.1": *
+#import "@preview/pixel-family:0.2.0": *
 #import "@preview/touying-simpl-hkustgz:0.1.2": *
 #import "@preview/cetz:0.4.0": canvas, draw, tree
 
@@ -201,22 +202,19 @@ description: Write an academic paper from outline to submission
 
 == How the hackathon works?
 
-1. Decide what to build: *MCP/CLI or skills?*, must check: https://giggleliu.github.io/HKUST-Got-Skills/resources
-2. File an issue on GitHub: https://github.com/GiggleLiu/HKUST-Got-Skills/issues (15 min)
-3. *Grouping*: 1-4 people per group, use skills by similarity.
-4. Find a room in Maker space to work together.
-5. *Task*: Each group presents a skill (or mcp/cli tool) they have built on Wednesday.
-
-== Key resources
-
-- Help desk is on the main stage. The online communication is via both WeChat and GitHub discussion (technical discussion).
-- *Room booking*: Ask help desk for more available rooms. We will refresh the list of available rooms on WeChat group.
-
-== Important gathering times
+1. Decide what to build: *MCP/CLI or skills?*, must check: https://giggleliu.github.io/HKUST-Got-Skills/resources . File an issue on GitHub: https://github.com/GiggleLiu/HKUST-Got-Skills/issues (15 min), about the brief idea of what to build. I will help you group (with skills by similarity).
+2. Every group confirm "what & how to build" at the help desk after initial design, for technical feasibility check.
+3. *Grouping*: 1-4 people per group, use skills by similarity. Find a room in Maker space to work together.
+4. *Task*: Each group presents a skill (or mcp/cli tool) they have built on Wednesday.
 
 Check the program: https://giggleliu.github.io/HKUST-Got-Skills/program
 
-- Recommendation: Please go to the help desk to confirm the technical approach.
+== Key resources
+
+- *Help desk*: On the main stage. The online communication is via both WeChat and GitHub discussion (technical discussion).
+- *Room booking*: Ask help desk for more available rooms. We will refresh the list of available rooms on WeChat group.
+- *Tea time*: 10:00-10:30, 15:00-15:30, for casual gathering and discussion.
+- *Pixel art*: If you want a cool pixel art (#bob()), you can register at the help desk.
 
 == Live coding
 
@@ -228,4 +226,3 @@ Live coding: https://giggleliu.github.io/HKUST-Got-Skills/step-by-step
 1. Carefully check the *available tools* from our website resources page before moving on.
 2. Identify the *creative part* of your skill and use the `AskUserQuestion` tool to ask the user for input. It is a tool that allows the agent to utilize human's expertise.
 3. Identify the *mechanical parts* of your skill and write bash/makefile/python scripts to improve the performance.
-4. If you want a cool pixel art, you can register at the help desk.
