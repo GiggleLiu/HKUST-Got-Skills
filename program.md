@@ -27,7 +27,7 @@ We encourage each group to discuss & confirm the topic at the help desk. I will 
 
 | Time | Activity |
 |---------|-------|
-| 10:00-11:00 | Sharing, vibe research & Tea break (Xi Dai), [Zoom link (ID: 931 2528 7718, PWD: 434823)](https://hkust-gz-edu-cn.zoom.us/j/93125287718?pwd=0Ey3cIlDeHO5BsWxDNgoKgqUM8TG8e.1) |
+| 10:00-11:00 | Sharing, vibe research & Tea break (Xi Dai), [Zoom link (ID: 931 2528 7718, PWD: 434823)](https://hkust-gz-edu-cn.zoom.us/j/93125287718?pwd=0Ey3cIlDeHO5BsWxDNgoKgqUM8TG8e.1), Room E4-101 |
 | 15:00-15:30 | Tea break |
 | 16:00-17:00 | Online Talk: Dr. Si-Rui Lu, [arXiv:2506.06214](https://arxiv.org/abs/2506.06214), [Zoom link (ID: 95927073703, PWD: 055429)](https://hkust-gz-edu-cn.zoom.us/j/95927073703?pwd=xSUEN8bA9JJf22x8sIobGmJiG0GhOb.1) |
 
