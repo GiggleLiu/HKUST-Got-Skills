@@ -168,50 +168,6 @@ Based on your workflow, you can write:
 
 Principle: *Advanced tools* $arrow.r$ *Simple skills*
 
-== Complexity conservation law
-
-#align(center, scale(150%,
-  canvas(length: 1cm, {
-    import draw: *
-
-    let bar-h = 0.6
-    let max-w = 8
-    let y-gap = 1.8
-
-    // --- Case 1: Sophisticated tool, simple skill ---
-    content((-1.5, 0), text(size: 10pt, fill: rgb("#888"))[Case 1])
-
-    // Tool bar (long)
-    let tool-w1 = 6.5
-    rect((0, bar-h / 2), (tool-w1, -bar-h / 2), fill: rgb("#1565c0"), stroke: none, radius: 0.15)
-    content((tool-w1 / 2, 0), text(size: 10pt, fill: white, weight: "bold")[🔧 Sophisticated Tool])
-
-    // Skill bar (short)
-    let skill-w1 = max-w - tool-w1 - 0.2
-    rect((tool-w1 + 0.2, bar-h / 2), (max-w, -bar-h / 2), fill: green.lighten(30%), stroke: none, radius: 0.15)
-    content((tool-w1 + 0.2 + skill-w1 / 2, 0), text(size: 9pt, weight: "bold")[📜])
-
-    // --- Case 2: Simple tool, sophisticated skill ---
-    content((-1.5, -y-gap), text(size: 10pt, fill: rgb("#888"))[Case 2])
-
-    // Tool bar (short)
-    let tool-w2 = 1.8
-    rect((0, -y-gap + bar-h / 2), (tool-w2, -y-gap - bar-h / 2), fill: rgb("#1565c0"), stroke: none, radius: 0.15)
-    content((tool-w2 / 2, -y-gap), text(size: 9pt, fill: white, weight: "bold")[🔧])
-
-    // Skill bar (long)
-    let skill-w2 = max-w - tool-w2 - 0.2
-    rect((tool-w2 + 0.2, -y-gap + bar-h / 2), (max-w, -y-gap - bar-h / 2), fill: green.lighten(30%), stroke: none, radius: 0.15)
-    content((tool-w2 + 0.2 + skill-w2 / 2, -y-gap), text(size: 10pt, weight: "bold")[📜 Sophisticated Skill])
-
-    // Legend
-    rect((0, -y-gap - bar-h / 2 - 0.7), (1.2, -y-gap - bar-h / 2 - 1.1), fill: rgb("#1565c0"), stroke: none, radius: 0.1)
-    content((1.6, -y-gap - bar-h / 2 - 0.9), anchor: "west", text(size: 9pt)[CLI / MCP Tool])
-    rect((4.2, -y-gap - bar-h / 2 - 0.7), (5.4, -y-gap - bar-h / 2 - 1.1), fill: green.lighten(30%), stroke: none, radius: 0.1)
-    content((5.8, -y-gap - bar-h / 2 - 0.9), anchor: "west", text(size: 9pt)[Skill (recipe)])
-  })
-))
-
 == How the hackathon works?
 
 1. Decide what to build: *MCP/CLI or skills?*, must check: https://giggleliu.github.io/HKUST-Got-Skills/resources . File an issue on GitHub: https://github.com/GiggleLiu/HKUST-Got-Skills/issues (15 min), about the brief idea of what to build. I will help you group (with skills by similarity).
