@@ -53,7 +53,7 @@
 
 #title-slide()
 
-== The era of AI agents
+== Automation: the era of AI agents
 
 #figure(
   canvas({
@@ -103,7 +103,7 @@
 )
 
 - Agents use *tools* (Model Context Protocol, MCP or command line interface, CLI) to act.
-- *Skills* teach them how to use these tools.
+- *Skills* teach them how to use these tools to automate a task.
 
 == To build skills, understand MCP/CLI first
 
@@ -154,7 +154,19 @@ description: Write an academic paper from outline to submission
 
 *Key insight*: small & explicit tasks $arrow$ reliable agent. Skills decompose big tasks into such pieces.
 
-*Example*: https://github.com/QuantumBFS/sci-brain/tree/main/skills/researchstyle
+== Example
+Research style skill: https://github.com/QuantumBFS/sci-brain/tree/main/skills/researchstyle
+
+*Writing skill is easy*. The skill to write skills: `superpowers:writing-skills`
+
+== The duality of skills and tools
+
+Based on your workflow, you can write:
+- Skills
+- Skills + simple scripts (e.g. bash/makefile/python)
+- Skills + CLI/MCP
+
+Principle: *Advanced tools* $arrow.r$ *Simple skills*
 
 == Complexity conservation law
 
